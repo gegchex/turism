@@ -1,0 +1,36 @@
+.image-over {
+   width: ;
+}
+
+.container-over {
+    position: relative;
+    
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    transition: all 0.3s ease;
+    
+    opacity: 0;
+    background: linear-gradient((rgba(0,0,0,0.7)));
+}
+
+.container-over:hover .overlay {
+    opacity: 1;
+}
+
+.image-overlayRight{
+    height: 100%;
+    
+    width: 0;
+    top: 0;
+    right: 0px;
+    background:rgba(0,0,0,0.7);
+    background-size: cover;
+    background-blend-mode:darken ;
+}
+
+.container-over:hover .image-overlayRight{
+width: 350px;
+}

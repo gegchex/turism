@@ -1,0 +1,153 @@
+@media( max-width:991px){
+    .tour-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        margin: 40px;
+        align-items: center;
+        position: relative;
+    }
+    .tour-grid2{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        margin: 40px;
+        align-items: center;
+    }
+    .general{
+        margin-left: 0;
+        width: 100%;
+        margin-top: 70px;
+    }
+    .slide-img{
+        width: 100%;
+        
+    }
+    .list-tour{
+        margin-top: 100px;
+    }
+    .frame-response{
+        margin-top: 100px;
+    }
+}
+@media( max-width:1199px){
+    .tour-grid{
+      
+        position: relative;
+    }
+    .tour-grid2{
+      position: relative;
+    }
+   
+     li.parent-element{
+        position: relative;
+        
+     }
+     .hidden-element-mcxeta
+     {
+        margin-left: 200px;
+        z-index: 1;
+     }
+     .hidden-element-mcxeta p{
+        position: absolute;
+     }
+}
+@media(max-width:630px){
+    .tour-grid{
+      
+        position: relative;
+    }
+    .tour-grid2{
+      position: relative;
+    }
+   
+     li.parent-element{
+        position: relative;
+        
+     }
+     .hidden-element-mcxeta
+     {
+        margin-left:50px;
+        z-index: 7;
+     }
+     .hidden-element-mcxeta p{
+        position: absolute;
+     }
+     .hidden-element-mcxeta-bottom-left{
+        margin-left:50px;
+        z-index: 7;
+
+     }
+     .hidden-element-mcxeta-bottom{
+        margin-left:50px;
+        z-index: 7;
+     }
+     iframe{
+        width:100% ;
+        height: 300px;
+     }
+
+}
+@media(max-width:446px){
+    
+     .hidden-element-mcxeta
+     {
+        margin-left:50px;
+        height: 500px;
+        z-index: 7;
+     }
+ 
+
+}
+@media(max-width:300px){
+    
+    .hidden-element-mcxeta
+    {
+       margin-left:50px;
+       height: 700px;
+       z-index: 7;
+    }
+
+
+}
+@media(max-width:464px){
+    .hidden-element-mcxeta-bottom {
+        height: 300px;
+    }
+}
+@media(max-width:362px){
+    .hidden-element-mcxeta-bottom {
+        height: 450px;
+    }
+}
+@media(max-width:300px){
+    .hidden-element-mcxeta-bottom {
+        height: 600px;
+    }
+}
+@media(max-width:473px){
+    .hidden-element-mcxeta-bottom-left {
+        height: 450px;
+    }
+}
+@media(max-width:400px){
+    .hidden-element-mcxeta-bottom-left {
+        height: 600px;
+    }
+}
+@media(max-width:353px){
+    .hidden-element-mcxeta-bottom-left {
+        height: 700px;
+    }
+}
+@media(max-width:310px){
+    .hidden-element-mcxeta-bottom-left {
+        height: 800px;
+    }
+}
+@media(max-width:394px){
+    .hidden-element-mcxeta-bottom-left {
+        height: 900px;
+    }
+}
+

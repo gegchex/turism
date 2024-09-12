@@ -1,0 +1,296 @@
+.simple-effet-image {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; margin-top: 150px;
+}
+  img{
+      
+      max-width: 100%;
+      height: auto;
+  }
+  
+  .simple-effect {
+      
+      display: block;
+      font-size: 1.8em;
+  }
+  .simple-effect span {
+      color: #1e92ea;
+  }
+  
+  
+  /*-- global css --*/
+  
+  .overlay,
+  .overlay-text,
+  .simple-text,
+  .overlay-sim-text-2,
+  .overlay-text-effect-3,
+  .zoom-effect-1 img,
+  .zoom-effect-2 img,
+  .opacity-effect img,
+  .blur-effect img,
+  .grayscale-effect img{
+     transition: all .4s linear;
+      -webkit-transition: all .4s linear;
+      -moz-transition: all .4s linear;
+      -o-transition: all .4s linear;
+  }
+  .image-wrapper{
+      margin-bottom: 35px;
+  }
+  .effect-image-1{
+      position: relative;
+      display: block;
+  }
+  .overlay-text p,
+  .overlay-sim-text-2 p,
+  .overlay-text-effect-3 p{
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+      padding: 20px 20px;
+  }
+  .overlay{
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 100%;
+      left:0;
+      top:0;
+      background: rgba(246,0,2,.7);
+      opacity: 0;
+      visibility: hidden;
+  }
+  
+  /*-- simple overlay css --*/
+  
+      .simple-overlay{
+          opacity: 0;
+          visibility: hidden;
+      }
+      .effect-image-1:hover .simple-overlay{
+          visibility: visible;
+          opacity: 1;
+      }
+  
+      /*-- left to right overlay --*/
+  
+      .simple-overlay-1{
+          width: 0px;
+          visibility: hidden;
+      }
+      .effect-image-1:hover .simple-overlay-1{
+          visibility: visible;
+          opacity: 1;
+          width: 100%;
+      }
+  
+      /*-- right to left overlay --*/
+  
+      .simple-overlay-2{
+          width: 0px;
+          right: 0;
+          left:initial;
+      }
+      .effect-image-1:hover .simple-overlay-2{
+          visibility: visible;
+          opacity: 1;
+          width: 100%;
+      }
+  
+      /*-- right corner to left overlay --*/
+  
+      .simple-overlay-3{
+          height: 0px;
+          right: 0;
+          left:initial;
+          width: 0px;
+      }
+      .effect-image-1:hover .simple-overlay-3{
+          visibility: visible;
+          opacity: 1;
+          width: 100%;
+          height: 100%;
+      }
+  
+      /*-- ovarlay text effect-1 --*/
+  
+      .overlay-text {
+          position: absolute;
+          left: 5px;
+          top: 5px;
+          width: 96%;
+          height: 94%;
+          background: rgba(70, 70, 70, 0.7);
+      }
+  
+      .overlay-text-1{
+          opacity: 0;
+          visibility: hidden;
+      }
+      .effect-image-1:hover .overlay-text-1{
+          opacity: 1;
+          visibility: visible;
+      }
+      .overlay-text-2{
+          opacity: 0;
+          visibility: hidden;
+          transform: scale(1.1);
+      }
+      .effect-image-1:hover .overlay-text-2{
+          opacity: 1;
+          visibility: visible;
+          transform: scale(1);
+      }
+  
+      /*-- overlay text effect 2 --*/
+  
+      .overlay-sim-text-2{
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 100%;
+          height: 100%;
+          background: rgba(246,0,2,.7);
+          opacity: 0;
+      }
+  
+      .simple-text {
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+          width: 100%;
+          background: #1e92ea;
+          color: #fff;
+      }
+      .simple-text p{
+          margin-bottom: 0px;
+          padding: 2px 8px;
+      }
+  
+      .effect-image-1:hover .overlay-xs-1{
+          opacity: 1;
+          visibility: visible;
+          display: block;	
+      }
+      .effect-image-1:hover .simple-text{
+          visibility: hidden;
+          opacity: 0;
+      }
+  
+      /*-- overlay text effect 3 --*/
+  
+      .overlay-text-effect-3 {
+          width: 85%;
+          height: 80%;
+          left: 20px;
+          top: 20px;
+          background: rgba(246,0,2,.7);
+          position: absolute;
+          outline: 5px solid rgba(246,0,2,.7);
+          outline-offset: 3px;
+      }
+  
+  /*!-- ovarlay radious effect --*/
+      .radious-effect img{
+          border-radius: 0%;
+          width: 176px;
+          height: 176px;
+          margin: 0 auto;
+          display: block;
+          transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          -moz-transition: all .3s ease;
+          -o-transition: all .3s ease;
+      }
+      .radious-effect:hover img{
+          border-radius: 100%;	
+      }
+      .radius-effct-next img{
+          border-radius: 100%;
+          transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          -moz-transition: all .3s ease;
+          -o-transition: all .3s ease;
+      }
+      .radius-effct-next:hover img{
+          border-radius: 0%;
+      }
+      
+  
+  /*!-- ovarlay zoom in effect --*/
+  
+      .zoom-effect-1{
+          overflow: hidden;
+      }
+  
+      .zoom-effect-1 img{
+          transform: scale(1);
+          -webkit-transform: scale(1);
+      }
+  
+      .zoom-effect-1:hover img{
+          transform: scale(1.1);
+          -webkit-transform: scale(1.1);
+      }
+  
+  /*!-- ovarlay zoom out effect --*/
+  
+      .zoom-effect-2{
+          overflow: hidden;
+      }
+  
+      .zoom-effect-2 img{
+          transform: scale(1.1);
+          -webkit-transform: scale(1.1);
+      }
+  
+      .zoom-effect-2:hover img{
+          transform: scale(1);
+          -webkit-transform: scale(1);
+      }
+  
+  /*--overlay opacity effect --*/
+  
+      .opacity-effect img{
+          opacity: 1;
+          width: 100%;
+          overflow: hidden;
+      }
+      .opacity-effect:hover img{
+          opacity: .5;
+      }
+  
+  /*-- overlay blur effect --*/
+  
+      .blur-effect img{
+          filter: blur(2px);
+          -webkit-fliter:blur(2px);
+      }
+      .blur-effect:hover img{
+          filter: blur(0);
+          -webkit-filter:blur(0);
+      }
+  
+  /*-- overlay grayscle effect --*/
+  
+      .grayscale-effect img{
+          filter: grayscale(100%);
+          -webkit-filter: grayscale(100%);
+      }
+      .grayscale-effect:hover img{
+          filter: grayscale(0);
+          -webkit-filter: grayscale(0);
+      }
+  
+  
+  @media (max-width: 767px){
+      .effect-image-1{
+          margin:30px 0px;
+      }
+  }
+  
+.col-sm-3{
+    margin: 40px;
+}  

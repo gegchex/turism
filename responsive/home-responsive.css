@@ -1,0 +1,101 @@
+@media (max-width:900px){
+    .typeJsText{
+    margin-bottom: 100px;
+    }
+}
+@media(max-width:895px){
+    
+   
+    .typeJsText{
+        font-size: 20px;
+    }
+    .header-logo{
+        width: 70px;
+        
+    }
+    a.nav-link{
+        font-size: 1px;
+    }
+    
+}
+@media (max-width:800px){
+    .typeJsText{
+    margin-bottom: 150px;
+   
+    }
+
+}
+@media (max-width:800px){
+    .typeJsText{
+    margin-bottom: 150px;
+   
+    }
+
+}
+@media (max-width:767px){
+    .typeJsText{
+    font-size: 18px;
+   
+    }
+
+}
+@media (max-width:700px){
+    .typeJsText{
+        margin-bottom: 220px;
+    font-size: 18px;
+   
+   
+    }
+    
+
+}
+@media (max-width:600px){
+    .typeJsText{
+        margin-bottom: 270px;
+    font-size: 13px;
+   
+   
+    }
+    
+
+}
+@media (max-width:500px){
+    .typeJsText{
+        margin-bottom: 330px;
+    font-size: 11px;
+   
+   
+    }
+    
+
+}
+@media (max-width:400px){
+    .typeJsText{
+        margin-bottom: 400px;
+    font-size: 8px;
+   
+   
+    }
+    
+
+}
+@media (max-width:300px){
+    .typeJsText{
+        margin-bottom: 450px;
+    font-size: 8px;
+   
+   
+    }
+    
+
+}
+@media (max-width:200px){
+    .typeJsText{
+        margin-bottom: 500px;
+    font-size: 8px;
+   
+   
+    }
+    
+
+}

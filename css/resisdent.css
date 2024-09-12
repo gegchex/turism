@@ -1,0 +1,294 @@
+
+@media (max-width: 2560px){
+    body{
+      
+        background-image: linear-gradient(#fbd98a , #fffbc0, #ffd35b,  #fffbc0,#EDC967);
+        
+    }
+    .typeJsText{
+        font-size: 40px;
+    }
+  
+    
+    
+    
+}
+@media (max-width: 2500px){
+    body{
+        background-image: linear-gradient( #e2e2eb, #ffffff,#D7D7D8,#A8A9AD) !important;
+        
+    }
+  
+    
+    
+    
+}
+@media(max-width: 2580px){
+    .header-logo{
+        width: 150px;
+    }
+    a.nav-link{
+        font-size: 15px;
+    }
+    
+    
+    
+}
+@media(max-width:  2000px){
+    .typeJsText{
+        font-size: 35px;
+    }
+    
+    
+    
+    
+}
+@media(max-width:  1496px){
+    .typeJsText{
+        font-size: 35px;
+    }
+    
+    
+    
+    
+}
+
+@media(max-width: 1199px){
+    
+    a.nav-link{
+        font-size: 16px;
+    }
+    ul{
+  margin-left: 0px;
+    }
+    .typeJsText{
+        font-size: 25px;
+    }
+    
+
+@media(max-width: 1200px){
+    
+    div.overlay{
+        height:730px;
+    }
+   
+    
+}
+}
+
+
+
+@media(max-width: 1400px){
+    
+    div.overlay{
+        height: 630px;
+    }
+   
+    
+}
+@media(max-width: 1200px){
+    
+    div.overlay{
+        height: 530px;
+    }
+   
+    
+}
+@media(max-width: 1179px){
+    
+    .typeJsText{
+        font-size: 25px;
+    }
+    
+}
+@media(max-width: 1024px){
+    
+    div.overlay{
+        height:500px;
+    }
+   
+    
+}
+
+
+@media(max-width:991px){
+    
+    div.overlay{
+        height:390px;
+    }
+    .typeJsText{
+        font-size: 20px;
+    }
+    
+}
+@media(max-width:887px){
+    
+   
+    .typeJsText{
+        font-size: 20px;
+    }
+    .header-logo{
+        width: 70px;
+        
+    }
+    a.nav-link{
+        font-size: 1px;
+    }
+    
+}
+@media(max-width:820px){
+    
+    div.overlay{
+        height:390px;
+    }
+    .typeJsText{
+        font-size: 20px;
+    }
+    .header-logo{
+        width: 110px;
+        
+    }
+    a.nav-link{
+        font-size: 8px;
+    }
+    
+}
+
+
+
+@media(max-width:768px){
+    
+    
+    div.overlay{
+        height:393px;
+    }
+    .typeJsText{
+        font-size: 18px;
+    }
+    
+   
+   
+    
+}
+@media(max-width:767px){
+    
+    
+    div.overlay{
+        height:280px;
+    }
+    .typeJsText{
+        font-size: 14px;
+    }
+    
+   
+   
+    
+}
+@media(max-width:500px){
+    
+    
+    .typeJsText{
+        font-size: 10px;
+    }
+    
+}
+@media(max-width:540px){
+    
+    
+    div.overlay{
+        height:290px;
+    }
+    .typeJsText{
+        font-size: 15px;
+    }
+    
+}
+@media(max-width:480px){
+    
+    div.overlay{
+        height:255px;
+    }
+   
+    
+}
+@media(max-width:431px){
+    
+    div.overlay{
+        height:230px;
+    }
+    .typeJsText{
+        font-size: 10px;
+    }
+    
+}
+@media(max-width:415px){
+    
+    div.overlay{
+        height:210px;
+    }
+   
+    
+}
+@media(max-width:394px){
+    
+    div.overlay{
+        height:195px;
+        
+    }
+    .typeJsText{
+        font-size: 8px;
+    }
+    
+}
+@media(max-width:376px){
+    
+    div.overlay{
+        height:200px;
+    }
+   
+    
+}
+@media(max-width:361px){
+    
+    div.overlay{
+        height:180px;
+    }
+    .typeJsText{
+        font-size: 7px;
+    }
+   
+    
+}
+@media(max-width:345px){
+    
+    div.overlay{
+        height:180px;
+    }
+   
+    
+}
+@media(max-width:321px){
+    
+    div.overlay{
+        height:165px;
+    }
+    .typeJsText{
+        font-size: 6px;
+    }
+    
+}
+@media(max-width:240px){
+    
+    div.overlay{
+        height:120px;
+    }
+    .typeJsText{
+        font-size: 3px;
+    }
+    .header-logo{
+        width: 1px;
+        margin-right: 40px;
+    }
+    
+}
+

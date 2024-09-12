@@ -1,0 +1,11 @@
+.tours-cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.tours-cards .card{
+    margin: 30px;
+}
